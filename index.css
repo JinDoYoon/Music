@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(170, 170, 170);
+}
+
+.top {
+    background-color: rgb(217, 217, 217);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.introduction {
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.searchbox {
+    display: flex;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.searchbox>img {
+    height: 33px;
+    width: 33px;
+    padding-right: 15px;
+}
+
+input {
+    padding-left: 10px;
+    padding-top: 3px;
+    font-weight: 550;
+    width: 600px;
+}
+
+.playlist {
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.playlist:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(0, 0, 139);
+}
+
+.main {
+    background-color: rgb(170, 170, 170);
+    flex-direction: column;
+    display: block;
+}
+
+.desc {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc:nth-child(12) {
+    padding-bottom: 20px;
+}
+
+.desc>td:nth-child(1) {
+    padding-left: 40px;
+    width: 315px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+audio {
+    width: 700px;
+    padding-right: 50px;
+}
+
+a {
+    font-weight: bold;
+    padding-right: 100px;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 0, 255);
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background-image: url('./img/plus.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-right: 60px;
+    cursor: pointer;
+}
+
+.reminder {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.no>td:nth-child(5)::before {
+    content: "Currently not selected for playlist";
+}
+
+.yes>td:nth-child(5)::before {
+    content: "Currently selected for playlist!";
+    color: rgb(0, 0, 255);
+}
+
+.hide {
+    display: none;
+}

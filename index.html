@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="introduction">Make your own playlist by pressing &#39;+&#39; button!</div>
+        <div class="searchbox">
+            <img src="./img/search.png" alt="search">
+            <input class="input" type="text"
+                placeholder="Put random number between 1~12, and you'll get a song! (Clear before searching again)">
+        </div>
+        <div class="playlist off">View playlist</div>
+    </div>
+    <table class="main">
+        <tbody>
+            <tr class="Surrender desc no nfound">
+                <td>Music Title: Surrender<br>Made by Josh Robin<br>Released in 2023</td>
+                <td><audio src="./music files/Josh Rubin - Surrender.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=e1wR0hpTW-w" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+            this.parentElement.classList.add('yes')
+            this.parentElement.classList.remove('no')}
+        else {
+            this.parentElement.classList.add('no')
+            this.parentElement.classList.remove('yes') }"></td>
+                <td class="reminder"></td>
+            </tr>
+            <tr class="Shakedown desc no nfound">
+                <td>Music Title: Shakedown<br>Made by Clarx<br>Released in 2020</td>
+                <td><audio src="./music files/Clarx - Shakedown.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=qJT0mc3q6Lg" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Spectre desc no nfound">
+                <td>Music Title: Spectre<br>Made by Alan Walker<br>Released in 2017</td>
+                <td><audio src="./music files/Alan Walker - Spectre.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=p7nIEJ1vpFM" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Scorpion desc no nfound">
+                <td>Music Title: Scorpion<br>Made by BurgeraX<br>Released in 2016</td>
+                <td><audio src="./music files/BurgeraX - Scorpion.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=DwnjVd7Q8sU" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="2011 desc no nfound">
+                <td>Music Title: 2011<br>Made by ColBreakz<br>Released in 2016</td>
+                <td><audio src="./music files/ColBreakz - 2011.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=GcopfMYIApQ" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Dimension desc no nfound">
+                <td>Music Title: Dimension<br>Made by Creo<br>Released in 2016</td>
+                <td><audio src="./music files/Creo - Dimension.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=MrD05HVGVIQ" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Outbreaker desc no nfound">
+                <td>Music Title: Outbreaker<br>Made by Hinkik<br>Made in 2016</div>
+                <td><audio src="./music files/Hinkik - Outbreaker.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=TuPCxJ3c4yA" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Nekozilla desc no nfound">
+                <td>Music Title: Nekozilla<br>Made by Different Heaven<br>Made in 2016</div>
+                <td><audio src="./music files/Different Heaven - Nekozilla.mp3" controls onloadstart="this.volume=0.25">
+                </td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=6FNHe3kf8_s" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Sky High desc no nfound">
+                <td>Music Title: Sky High<br>Made by Elektrmia<br>Made in 2016</div>
+                <td><audio src="./music files/Elektronomia - Sky High.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=TW9d8vYrVFQ&t=11s" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Heroes Tonight desc no nfound">
+                <td>Music Title: Heroes Tonight<br>Made by Janji<br>Released in 2015</td>
+                <td><audio src="./music files/Janji - Heroes Tonight.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=3nQNiWdeH2Q" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="In The Shadows desc no nfound">
+                <td>Music Title: In the Shadows<br>Made by Ethan Meixsell<br>Made in 2014</div>
+                <td><audio src="./music files/Ethan Meixsell - In the Shadows.mp3" controls
+                        onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=QILwLz2TjNM" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+            <tr class="Blank VIP desc no nfound">
+                <td>Music Title: Blank VIP<br>Made by Disfigure<br>Made in 2013</div>
+                <td><audio src="./music files/Disfigure - Blank VIP.mp3" controls onloadstart="this.volume=0.25"></td>
+                <td class="a"><a href="https://www.youtube.com/watch?v=j5DCb1ycXyA" target="_blank">Listen on
+                        youtube</a></td>
+                <td class="plus" onclick="if (this.parentElement.classList.contains('no')) {
+                    this.parentElement.classList.add('yes')
+                    this.parentElement.classList.remove('no')}
+                else {
+                    this.parentElement.classList.add('no')
+                    this.parentElement.classList.remove('yes') }"></td>
+                <td class=" reminder"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="javascript.js"></script>
+
+</html>
